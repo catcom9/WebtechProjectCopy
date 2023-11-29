@@ -2,11 +2,20 @@
     background-color: sandybrown;
     padding: 6px;
 }
-#hound{
+#hound-img{
     background-color: antiquewhite;
     padding: 10px;
-    float: left;
+    float: none;
+    width: 35%;
 }
-#hound > img {
-    border: 1px solid black;
+#hound-img > img {
+    border: 15px solid sienna;
+}
+#hound-txt{
+    float:right;
+    background-color: antiquewhite;
+    width: 65%;
+}
+#mainhound{
+    background-color: antiquewhite;
 }
