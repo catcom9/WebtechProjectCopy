@@ -1,0 +1,25 @@
+#header{
+    background-color: green;
+}
+
+#header > img{
+    padding: 10px;
+}
+
+#main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#ninjago{
+    background-color: gray;
+    padding: 10px;
+}
+
+#ninjago-img{
+    float: left;
+}
+
+#ninjago-text{
+    float: left;
+}
