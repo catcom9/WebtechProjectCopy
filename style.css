@@ -1,9 +1,30 @@
-#header{
-    background-color: green;
+*{
+    box-sizing: border-box;
 }
 
-#header > img{
+#header{
+    background-color: #ffcf00;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#header img{
     padding: 10px;
+}
+
+#header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    font-size: large;
 }
 
 #main{
@@ -11,15 +32,3 @@
     margin-right: 10%;
 }
 
-#ninjago{
-    background-color: gray;
-    padding: 10px;
-}
-
-#ninjago-img{
-    float: left;
-}
-
-#ninjago-text{
-    float: left;
-}
