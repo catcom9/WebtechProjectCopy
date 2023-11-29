@@ -1,0 +1,12 @@
+#head{
+    background-color: sandybrown;
+    padding: 6px;
+}
+#hound{
+    background-color: antiquewhite;
+    padding: 10px;
+    float: left;
+}
+#hound > img {
+    border: 1px solid black;
+}
