@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #2c2c2c;
 }
 
 /* Header and Dropdown css */
@@ -26,7 +27,6 @@
 #header a, #header button, #dropdown-content{
     padding: 10px;
     text-decoration: none;
-    color: #2c2c2c;
     font-weight: bold;
     font-size: large;
     text-align: center;
@@ -63,9 +63,18 @@
 
 /* End of Header and Dropdown css */
 
+#welcome_text{
+    background-color: #DFDFDF;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
 #main{
     display: flex;
     flex-direction: column;
+    gap: 20px;
     align-items: center;
     width: 80%;
     margin: auto;
@@ -81,7 +90,7 @@ main p{
     flex-wrap: wrap;
     gap: 10px 30px;
     margin: 10px;
-    width: 100%;
+    width: 80%;
     padding: 20px;
     background-color: #DFDFDF;
     justify-content: center;
@@ -113,4 +122,45 @@ main p{
 
 .theme img{
     border: #2c2c2c solid 4px;
+}
+
+/* Start of news CSS */
+#news-container{
+    display: flex;
+    background-color: #DFDFDF;
+    width: 80%;
+}
+
+#latest-news{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 40%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+#latest-news a{
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: #2c2c2c solid 4px;
+}
+
+
+#latest-news a:hover{
+    border: black solid 4px;
+}
+
+#latest-news img{
+    border-radius: 30px;
+}
+
+#news-letter{
+
 }
