@@ -9,10 +9,15 @@
     <body>
         <div id="header">
             <img src="Imgs/Lego-Logo.svg" width="75" height="75">
-            <ul>
-                <li><a href="">Shop By Theme</a></li>
-                <li><a href="">Help</a></li>
-            </ul>
+            <div id = "dropdown">
+                <button>Shop By Theme</button>
+                <div id = "dropdown-content">
+                    <a href="">Ninjago</a>
+                    <a href="">City</a>
+                    <a href="">Classic</a>
+                  </div>
+            </div>
+            <a href="">Help</a>
         </div>
 
         <div id="main">
@@ -25,25 +30,89 @@
             <div id = "theme_container">
                 <div class="theme">
                     <div class = "theme-img">
-                        <img src="Imgs/ninjago-mainpage-crop.jpg" height="200px" width="200px">
+                        <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
                     </div>
                     <div class = "theme-text">
                         <h2>LEGO&reg; Ninjago</h2>
                         <p>Enter the world of LEGO&reg; Ninjago.</p>
+                        <a href="">View Sets</a>
                     </div>
                 </div>
             
                 <div class="theme">
                     <div class = "theme-img">
-                        <img src="Imgs/ninjago-mainpage-crop.jpg" height="200px" width="200px">
+                        <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
                     </div>
                     <div class = "theme-text">
                         <h2>LEGO&reg; Ninjago</h2>
                         <p>Enter the world of LEGO&reg; Ninjago.</p>
+                        <a href="">View Sets</a>
+                    </div>
+                </div>
+
+                <div class="theme">
+                    <div class = "theme-img">
+                        <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
+                    </div>
+                    <div class = "theme-text">
+                        <h2>LEGO&reg; Ninjago</h2>
+                        <p>Enter the world of LEGO&reg; Ninjago.</p>
+                        <a href="">View Sets</a>
+                    </div>
+                </div>
+            
+                <div class="theme">
+                    <div class = "theme-img">
+                        <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
+                    </div>
+                    <div class = "theme-text">
+                        <h2>LEGO&reg; Ninjago</h2>
+                        <p>Enter the world of LEGO&reg; Ninjago.</p>
+                        <a href="">View Sets</a>
                     </div>
                 </div>
             </div>
 
+            <div id = "news-container">
+                <div id = "latest-news">
+                    <h2>Latest News</h2>
+                    <a href = "https://www.lego.com/en-ie/aboutus/news/2023/november/the-lego-group-unveil-the-world-s-largest-lego-store">
+                        <img src="Imgs/news.jpg" alt="Lego staff opening the store" width="100%" height="auto">
+                        <p>The LEGO Group Unveil the World's largest LEGO Store</p>
+                    </a>
+                </div>
+                <div id = "news-letter">
+                    <h2>Keep up to date</h2>
+                    <p>Join our newsletter to keep up to date with the world of LEGO&reg;.<br>
+                        There are special deals and offers to members of the newsletter.
+                        We send a newsletter at the start of every month.
+                    </p>
+
+                    <form>
+                        <div id = "email-form">
+                            <label for = "email">Enter your Email</label><br>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div id = "checkboxes">
+                            <p>I would like to reveive updates about:</p>
+                            <div>
+                                <label for="news">News and Updates:</label>
+                                <input type="checkbox" id="news" name="Newsletter">
+                            </div>
+
+                            <div>
+                                <label for="offers">Offers:</label>
+                                <input type="checkbox" id="offers" name="Newsletter">
+                            </div>
+
+                            <div>
+                                <label for="new_sets">New Sets:</label>
+                                <input type="checkbox" id="new_sets" name="Newsletter">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
             
 
         </div>
