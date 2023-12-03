@@ -63,6 +63,8 @@
 
 /* End of Header and Dropdown css */
 
+
+/* Start of main body css */
 #welcome_text{
     background-color: #DFDFDF;
     border-radius: 30px;
@@ -123,12 +125,15 @@ main p{
 .theme img{
     border: #2c2c2c solid 4px;
 }
+/* End of main body css */
+
 
 /* Start of news CSS */
 #news-container{
     display: flex;
     background-color: #DFDFDF;
     width: 80%;
+    border-radius: 30px;
 }
 
 #latest-news{
@@ -139,7 +144,6 @@ main p{
     padding: 10px;
     font-size: large;
     font-weight: bold;
-    background-color: aquamarine;
 }
 
 #latest-news a{
@@ -155,6 +159,7 @@ main p{
 
 #latest-news a:hover{
     border: black solid 4px;
+    color: black;
 }
 
 #latest-news img{
@@ -162,5 +167,26 @@ main p{
 }
 
 #news-letter{
-
+    display: flex;
+    flex-direction: column;
 }
+
+#news-letter form{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#email-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#checkboxes{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* End of news CSS */
