@@ -181,11 +181,24 @@ main p{
     display: flex;
     flex-direction: column;
     width: 50%;
+    gap: 10px;
 }
 
 #checkboxes{
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+#news-letter input{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: black
+}
+
+#news-letter button{
+    margin: auto;
     width: 50%;
 }
 
