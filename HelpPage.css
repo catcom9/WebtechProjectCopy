@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #2c2c2c;
+}
+
+/* Header and Dropdown css */
+#header{
+    background-color: #ffcf00;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+}
+
+#header img{
+    padding: 10px;
+}
+
+
+#header button{
+    background-color: #ffcf00;
+    border: none;
+    height: 70px;
+}
+
+#header a, #header button, #dropdown-content{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#header a:hover, #dropdown:hover button{
+    text-decoration: underline;
+    text-decoration-style: solid; 
+}
+
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    background-color: #DFDFDF;
+    z-index: 1; /*Places content in front of everything else*/
+}
+
+#dropdown-content a {
+    display: block;
+}
+
+
+#dropdown:hover #dropdown-content{
+    display: block;
+}
+
+/* End of Header and Dropdown css */
