@@ -24,7 +24,11 @@
     height: 70px;
 }
 
-#header a, #header button, #dropdown-content{
+#logo{
+    height: inherit;
+}
+
+.link, #header button, #dropdown-content{
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
