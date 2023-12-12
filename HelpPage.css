@@ -72,9 +72,20 @@
 /* Start of quick links css*/
 
 #quick_links{
-    background-color: #ffcf00;
-    
+    display: flex;
+    width: 80%;
+    margin: auto;
 }
 
+#icons{
+    display: flex;
+    width: 50%;
+    background-color: #ffcf00;
+}
+
+#discription{
+    width: 50%;
+    background-color: aqua;
+}
 
 /* End of quick links css*/
