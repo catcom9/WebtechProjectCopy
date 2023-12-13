@@ -14,3 +14,15 @@ function newsletter(){
     window.alert("Thanks " + firstName + ".\nWe will send you a confirmation email at " + email);
     
 }
+
+
+function help_icon(index){
+    var ids = ["Missing", "Contact", "Returns", "Instructions", "Buy", "Broken"]
+
+    for(let i = 0; i!=6; i++){
+        document.getElementById(ids[i]).style = "display: none"
+    }
+
+
+    document.getElementById(ids[index]).style = "display: block"
+}
