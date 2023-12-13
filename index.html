@@ -4,6 +4,7 @@
         <title>Lego</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="Imgs/Lego-Logo.svg">
+        <script src="main.js"></script>
     </head>
 
     <body>
@@ -14,10 +15,10 @@
             <div id = "dropdown">
                 <button>Shop By Theme</button>
                 <div id = "dropdown-content">
-                    <a class = "link" href="">Ninjago</a>
-                    <a class = "link" href="">City</a>
-                    <a class = "link" href="">Classic</a>
-                    <a class = "link" href="">City</a>
+                    <a class = "link" href="Ninjago.html">Ninjago</a>
+                    <a class = "link" href="botanical.html">Botanical</a>
+                    <a class = "link" href="https://www.lego.com/en-ie/themes/classic">Classic</a>
+                    <a class = "link" href="https://www.lego.com/en-ie/themes/city">City</a>
                   </div>
             </div>
             <a class = "link" href="HelpPage.html">Help</a>
@@ -38,7 +39,8 @@
                     <div class = "theme-text">
                         <h2>LEGO&reg; Ninjago</h2>
                         <p>Enter the world of LEGO&reg; Ninjago.</p>
-                        <a href="">View Sets</a>
+                        <br><br>
+                        <a href="Ninjago.html">View Sets</a>
                     </div>
                 </div>
             
@@ -47,9 +49,10 @@
                         <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
                     </div>
                     <div class = "theme-text">
-                        <h2>LEGO&reg; Ninjago</h2>
-                        <p>Enter the world of LEGO&reg; Ninjago.</p>
-                        <a href="">View Sets</a>
+                        <h2>LEGO&reg; Botanical</h2>
+                        <p>Enter the world of LEGO&reg; Botanical.</p>
+                        <br><br>
+                        <a href="botanical.html">View Sets</a>
                     </div>
                 </div>
 
@@ -58,9 +61,10 @@
                         <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
                     </div>
                     <div class = "theme-text">
-                        <h2>LEGO&reg; Ninjago</h2>
-                        <p>Enter the world of LEGO&reg; Ninjago.</p>
-                        <a href="">View Sets</a>
+                        <h2>LEGO&reg; City</h2>
+                        <p>Enter the world of LEGO&reg; City</p>
+                        <br><br>
+                        <a href="https://www.lego.com/en-ie/themes/city">View Sets</a>
                     </div>
                 </div>
             
@@ -69,9 +73,10 @@
                         <img src="Imgs/ninjago-mainpage-crop.jpg" alt="" height="200px" width="200px">
                     </div>
                     <div class = "theme-text">
-                        <h2>LEGO&reg; Ninjago</h2>
-                        <p>Enter the world of LEGO&reg; Ninjago.</p>
-                        <a href="">View Sets</a>
+                        <h2>LEGO&reg; Classic</h2>
+                        <p>Enter the world of LEGO&reg; Classic.</p>
+                        <br><br>
+                        <a href="https://www.lego.com/en-ie/themes/classic">View Sets</a>
                     </div>
                 </div>
             </div>
@@ -99,12 +104,12 @@
                             </div>
 
                             <div>
-                                <label for = "last_name">Lase Name</label>
+                                <label for = "last_name">Last Name</label>
                                 <input type="text" id="last_name" name="last_name">
                             </div>
 
                             <div>
-                                <label for = "email">Enter Your Email</label>
+                                <label for = "email">Your Email</label>
                                 <input type="text" id="email" name="email">
                             </div>
                         </div>
@@ -127,7 +132,7 @@
                         </div>
                     </form>
 
-                    <button>Submit</button>
+                    <button onclick="newsletter();">Submit</button>
 
                 </div>
             </div>
