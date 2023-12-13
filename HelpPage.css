@@ -72,9 +72,59 @@
 /* Start of quick links css*/
 
 #quick_links{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#icons{
+    display: flex;
+    width: 40%;
     background-color: #ffcf00;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.icon_img{
+    background-color: white;
+    border: white solid 20px;
+    border-radius: 20px;
+}
+
+.icon_text{
+    padding-top: 5px;
+}
+
+.icon_img:hover{
+    color: black;
+    border: white solid 15px;
+}
+
+#discription{
+    width: 60%;
+    background-color: aqua;
+}
+
+
+#Missing, #Contact, #Returns, #Instructions, #Buy, #Broken{
+    display: none;
+}
+
+
+
+
 
 
 /* End of quick links css*/
