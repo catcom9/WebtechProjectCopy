@@ -5,17 +5,128 @@
 #hound-img{
     background-color: antiquewhite;
     padding: 10px;
-    float: none;
+    float: center;
     width: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    text-decoration: wavy;
 }
 #hound-img > img {
-    border: 15px solid sienna;
+    border: 10px solid sienna;
 }
 #hound-txt{
     float:right;
     background-color: antiquewhite;
     width: 65%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: black;
+
 }
 #mainhound{
     background-color: antiquewhite;
+    border: 5px solid whitesmoke;
+}
+#pricehound{
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+#starhound{
+    float: right;
+}
+#town-img{
+    background-color: antiquewhite;
+    padding: 10px;
+    float: right;
+    width: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    text-decoration: wavy;
+    position:absolute;
+    right: 0px;
+}
+#town-img > img {
+    border: 10px solid sienna;
+}
+#town-txt{
+    position:absolute;
+    left: auto;
+    background-color: antiquewhite;
+    width: 76%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: black;
+
+}
+#maintown{
+    background-color: antiquewhite;
+    border-top: 10px solid whitesmoke;
+    border-bottom: 20px solid whitesmoke;
+    position: relative;
+}
+#pricetown{
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+#startown{
+    float: left;
+}
+#pricet{
+    position:absolute;
+    right:25%;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#car-img{
+    background-color: antiquewhite;
+    padding: 10px;
+    float: right;
+    width: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    text-decoration: wavy;
+    position:absolute;
+    right: 0px;
+}
+#car-img > img {
+    border: 10px solid sienna;
+}
+#car-txt{
+    position:absolute;
+    left: auto;
+    background-color: antiquewhite;
+    width: 76%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: black;
+
+}
+#maincar{
+    background-color: antiquewhite;
+    border-top: 10px solid whitesmoke;
+    border-bottom: 20px solid whitesmoke;
+    position: relative;
+}
+#priccar{
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+#starcar{
+    float: left;
+}
+#pricecar{
+    position:absolute;
+    right:25%;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#button{
+    font-size: x-large;
+    background-color: rgb(196, 154, 126);
 }
